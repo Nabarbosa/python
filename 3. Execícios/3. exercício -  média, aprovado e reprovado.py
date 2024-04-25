@@ -9,16 +9,22 @@ primeiraNota = int(input("Digite a primeira nota: "))
 segundaNota = int(input("Digite a segunda nota: "))
 terceiraNota = int(input("Digite a terceira nota: "))
 
-soma = (primeiraNota + segundaNota + terceiraNota) / 3
+media = (primeiraNota + segundaNota + terceiraNota) / 3
+
+#if media >= 7:
+#   resultado = "Aprovado"
+#else:
+#    resultado = "Reprovado"    
 
 os.system("cls || clear")
 
 print("\n === Exibindo resultados ===\n")
 print(f"Nome do aluno: {nome}")
 print(f"Idade do aluno: {idade}")
-print(f"Média do aluno: {soma}\n")
+print(f"Média do aluno: {media}")
+#print(f"Resultado: {Resultado}\n")
 
-if soma < 7:
-    print("=== Reprovado ===")
-else:
+if media >= 7:
     print("=== Aprovado ===")    
+else:
+    print("=== Reprovado ===")
