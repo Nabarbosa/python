@@ -2,10 +2,10 @@ import os
 os.system("cls || clear")
 
 def logoSenai():
-    o==")
-s.system("cls || clear")
+    os.system("cls || clear")
     print("===== SENAI =====")
-    print("===== ===== ===
+    print("===== ===== =====")
+
 def multiplicacao(n1, n2):
     return n1 * n2
 
